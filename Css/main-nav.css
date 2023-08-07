@@ -1,0 +1,24 @@
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 48px;
+}
+
+.main-nav .menu-item{
+    padding: .75rem;
+    border: 1px solid black;
+    height: 48px;
+    border-bottom: 0;
+    border-top: 0;
+    box-sizing: border-box;
+}
+
+.main-nav .menu-item:nth-child(2n){
+    border-right: 0;
+}
+
+.main-nav .menu-item:nth-child(odd){
+    border-left: 0;
+}

@@ -1,0 +1,56 @@
+.wrapper-shop{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+
+.wrapper-shop .card-link {
+    display: flex;
+    height: 200px;
+    min-width: 160px;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    
+}
+
+.wrapper-shop .card-link:nth-child(2n) {
+ border-left: 1px solid black;
+    
+}
+
+
+.wrapper-shop .card-link:nth-child(2n-1) {
+    border-right: 1px solid black;
+       
+}
+
+.wrapper-shop .card-link .main-title.-second{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.wrapper-shop .card-link .action {
+  text-decoration: none;
+  position:relative;
+  letter-spacing: 0.35px;
+  color: black;
+
+}
+
+.wrapper-shop .image{
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.wrapper-shop .card-link .action::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: url(../Assets/images/east_wght300_opsz24.png);
+}

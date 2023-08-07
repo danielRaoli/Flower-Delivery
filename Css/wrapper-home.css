@@ -1,0 +1,25 @@
+.wrapper-home{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1.5rem;
+}
+
+.wrapper-home .description-area{
+    display: flex;
+    padding-left: 1rem;
+    align-items: end;
+    border-left: 1px solid black;
+}
+
+.wrapper-home .home-icon{
+    padding-right: 1rem;
+}
+
+.wrapper-home .description{
+    color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));
+    font-size: 11px;
+    font-weight: 400;
+    text-align:left;
+    line-height: 140%;
+}
+
