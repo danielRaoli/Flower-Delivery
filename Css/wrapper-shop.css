@@ -35,7 +35,9 @@
 
 .wrapper-shop .card-link .action {
   text-decoration: none;
+  display: flex;
   position:relative;
+  align-items: flex-end;
   letter-spacing: 0.35px;
   color: black;
 
@@ -49,8 +51,12 @@
 }
 .wrapper-shop .card-link .action::after {
     content: '';
+    box-sizing: border-box;
     position: absolute;
+    left: 100%;
+    bottom: 10%;
     width: 24px;
-    height: 24px;
+    height: 100%;
     background: url(../Assets/images/east_wght300_opsz24.png);
+    background-repeat: no-repeat;
 }

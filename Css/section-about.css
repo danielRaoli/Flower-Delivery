@@ -1,0 +1,47 @@
+.section-about{
+    padding-bottom: 2.5rem;
+}
+
+.section-about .box-title{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 2.5rem 1rem;
+    box-sizing: border-box;
+}
+
+.section-about .box-about{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-sizing: border-box;
+    padding: 2.5rem 1rem;
+}
+
+
+
+.section-about .main-title{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-size: 34px;
+    text-shadow: none;
+}
+
+.section-about .description{
+    line-height: 140%;
+    font-size: 16px;
+    padding-bottom: 4rem;
+    
+    
+}
+
+.section-about .main-title.-second{
+    font-size: 26px;
+}
+
+.section-about .main-button{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
