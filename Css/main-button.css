@@ -8,3 +8,9 @@
     padding: 1rem 1.5rem;
     box-sizing: border-box;
 }
+
+
+.main-button.-second{
+    background-color: black;
+    color: aliceblue;
+}

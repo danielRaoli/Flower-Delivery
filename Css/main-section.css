@@ -1,11 +1,7 @@
-.main-section{
-    padding: 2.5rem 0;
-    border-top: 1px solid black;
-}
+
 
 .main-section .main-title{
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
     font-size: 34px;
     text-shadow: none;
 }
@@ -17,7 +13,9 @@
 
 
 .main-section .box-title{
-    padding: 0 1rem 2.5rem 1rem;
+
+    padding: 2.5rem 1rem;
+    border-top: 1px solid black;
     border-bottom: 1px solid black;
 
 }
@@ -26,7 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 1rem 0 1rem;  
+    padding: 1rem 1rem 0 1rem;  
     border-bottom: 1px solid black;
 }
 
@@ -37,3 +35,53 @@
     
     
 }
+
+.main-section .tel{
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    line-height: 120%;
+    padding-bottom: 1rem;
+}
+
+
+.main-section .loc{
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    line-height: 120%;
+    padding-bottom: 1rem;
+}
+
+.main-section .box-content.-tel{
+    padding: 2.5rem 1rem;
+}
+
+.main-section .box-content.-tel .tel::before{
+    content: '';
+    position: relative;
+    background: url(../Assets/images/call.svg);
+    width: 24px;
+    height: 24px;
+
+}
+
+.main-section .box-content .loc{
+    padding: 1rem 0rem;
+}
+
+.main-section .box-content .loc::before{
+    content: '';
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background: url(../Assets/images/pin_drop.svg);
+}
+
+

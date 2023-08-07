@@ -1,0 +1,25 @@
+.section-follow{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-follow .main-title.-second{
+    font-size: 26px;
+    padding: 1.5rem 0;
+}
+
+.section-follow .wrapper-social .social-icon{
+    height: 24px;
+    width: 24px;
+    padding-right: 2rem;
+}
+
+.section-follow .box{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 1rem 0 1rem;
+}

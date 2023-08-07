@@ -1,5 +1,5 @@
 .main-title{
-    color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));
+    color: black;
     font-size: 40px;
     font-weight: 600;
     line-height: 120%;
@@ -7,7 +7,7 @@
 }
 
 .main-title.-second{
-    color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));
+    color: black;
     text-align: center;
     text-shadow: 0 0 0 ;
     font-size: 26px;

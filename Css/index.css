@@ -2,7 +2,7 @@
         font-family: 'Roboto';
         background-color: white;
         border: 1px solid black;   
-        color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));    
+        color: black;    
     }
 
     main{
