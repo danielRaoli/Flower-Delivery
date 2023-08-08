@@ -44,7 +44,7 @@
     font-weight: 600;
     letter-spacing: 0.4px;
     line-height: 120%;
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
 }
 
 
@@ -56,7 +56,6 @@
     font-weight: 600;
     letter-spacing: 0.4px;
     line-height: 120%;
-    padding-bottom: 1rem;
 }
 
 .main-section .box-content.-tel{
@@ -73,7 +72,7 @@
 }
 
 .main-section .box-content .loc{
-    padding: 1rem 0rem;
+    padding: 1rem 0 2rem 0;
 }
 
 .main-section .box-content .loc::before{
@@ -82,6 +81,31 @@
     width: 24px;
     height: 24px;
     background: url(../Assets/images/pin_drop.svg);
+}
+
+.main-section .image{
+    box-sizing: border-box;
+    align-self: stretch;
+    display: flex;
+    height: 420px;
+    width: 100%;
+}
+
+
+.main-section .box-content.-center{
+    padding: 2.5rem ;
+    text-align: center;
+    align-items: center;
+}
+
+.main-section .box-content.-center .main-button{
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.main-section .box-content.-center .sentence{
+    font-size: 22px;
 }
 
 

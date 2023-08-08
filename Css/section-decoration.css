@@ -1,0 +1,30 @@
+.section-decoration{
+    background: url(../Assets/images/google-image.jpg);
+    color: white;
+    background-size: 100%;
+    height: 416px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    background-color: rgb(73, 84, 84);
+    background-blend-mode: overlay;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.section-decoration .main-title{
+    padding: 1rem 1rem;
+    color: white;
+}
+
+.section-decoration .main-button{
+    margin-top: 4rem;
+    border-color: white;
+    color: white;
+    width: 100%;
+}
