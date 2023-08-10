@@ -224,3 +224,9 @@
         }
 
 }
+
+@media screen and (min-width:980px) {
+    .main-section .image{
+        height: 720px;
+    }
+}

@@ -35,3 +35,10 @@
         padding: 5rem;
     }
 }
+
+@media screen and (min-width:980px) {
+    .section-decoration{
+        height: 720px;
+        padding: 5rem;
+    }
+}

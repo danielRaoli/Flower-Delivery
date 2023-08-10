@@ -78,3 +78,13 @@
         font-size: 18px;
     }
 }
+
+@media screen and (min-width:980px) {
+    .wrapper-shop .card-link {
+        height: 600px;
+    }
+
+    .wrapper-shop .image{
+        height: 600px;
+    }
+}
