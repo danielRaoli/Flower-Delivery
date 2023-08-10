@@ -9,6 +9,7 @@
 .main-section .main-title.-second{
     font-size: 26px;
     padding-bottom: 1rem;
+    text-align: start;
 }
 
 
@@ -109,3 +110,20 @@
 }
 
 
+@media screen and (min-width:768px) {
+    .main-section .box-title{
+        padding: 5rem;
+    }
+    .main-section .main-title{
+        font-size: 56px;
+    }
+    .main-section .main-title.-second{
+        font-size: 38px;
+    }
+    .main-section .box-content{
+        padding: 5rem;
+    }
+    .main-section .description{
+        padding: 0;
+    }
+}

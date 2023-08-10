@@ -8,6 +8,7 @@
 
 .section-follow .main-title.-second{
     font-size: 26px;
+    text-align: start;
     padding: 1.5rem 0;
 }
 
@@ -28,4 +29,41 @@
 .section-follow .banner{
     box-sizing: border-box;
     width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .section-follow .banner{
+        height: 580px;
+    }
+
+    .section-follow{
+        padding: 0;
+    }
+
+    .section-follow .box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 72px;
+        box-sizing: border-box;
+    }
+    .section-follow .box .title-box{
+        display:flex;
+        height: 100%;
+        width: 50%;
+        align-items: center;
+        border-right:1px solid black ;
+    }
+    .section-follow .main-title.-second{
+        font-size: 38px;
+        text-align: center;
+    }
+    .section-follow .wrapper-social{
+        text-align: center;
+        box-sizing: border-box;
+        width: 50%;
+    }
+
 }

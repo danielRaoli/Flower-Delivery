@@ -38,6 +38,7 @@
 
 .section-about .main-title.-second{
     font-size: 26px;
+    text-align: start;
 }
 
 .section-about .main-button{
@@ -45,3 +46,19 @@
     margin-right: 2rem;
 }
 
+
+@media screen and (min-width:768px) {
+    .section-about .main-title{
+        font-size: 56px;
+        padding: 0;
+    }
+    .section-about .box-title{
+        padding: 5rem;
+    }
+
+    .section-about .main-title.-second{
+        font-size: 38px;
+        padding: 1.5rem 0 1rem 0;
+
+    }
+}
