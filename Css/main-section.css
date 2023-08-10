@@ -1,5 +1,7 @@
 
-
+.main-section{
+    box-sizing: border-box;
+}
 .main-section .main-title{
     padding: 1rem 0;
     font-size: 34px;
@@ -96,6 +98,8 @@
 .main-section .box-content.-center{
     padding: 2.5rem ;
     text-align: center;
+    justify-items: center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -109,21 +113,114 @@
     font-size: 22px;
 }
 
+.wrapper-contact{
+    display: none;
+}
+
 
 @media screen and (min-width:768px) {
     .main-section .box-title{
         padding: 5rem;
     }
+    .main-section .box-title.-head{
+        height: 220px;
+        box-sizing: border-box;
+        font-size: 50px;
+        text-align: center;
+    }
+
+
     .main-section .main-title{
         font-size: 56px;
     }
     .main-section .main-title.-second{
         font-size: 38px;
     }
+
+    .main-section .main-title.-second-center{
+        text-align: center;
+        font-size: 50px;
+        padding: 0;
+        width: auto;
+    }
+
     .main-section .box-content{
         padding: 5rem;
     }
     .main-section .description{
         padding: 0;
     }
+
+    .main-section .main-form{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .main-section .main-form .form-label{
+        width: 100%;
+        display: block;
+    }
+
+        .main-section .main-form .form-input{
+            height: 56px;
+            width: 296px;
+            box-sizing: border-box;
+            
+        }
+        .main-section .main-form .main-button.-second{
+            height: 56px;
+            width: 296px;
+            box-sizing: border-box;
+        }
+
+        .wrapper-contact{
+            display: flex;
+            width: 100%;
+            height: 384px;
+            box-sizing: border-box;
+        }
+
+        .wrapper-contact .main-section {
+            width: 50%;
+            height: 384px;
+            box-sizing: border-box;
+        }
+
+        .wrapper-contact .main-section .box-content{
+            height: 78px;
+            box-sizing: border-box;
+            padding: 1rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wrapper-contact .main-section .box-content.-tel{
+            height: 306px;
+            text-align: center;
+            box-sizing: border-box;
+            border-bottom: 0;
+        }
+
+        .wrapper-contact .main-section .main-title.-second{
+            text-align: center;
+        }
+
+        .wrapper-contact .main-section:nth-child(2n) .box-content{
+            border-left: 1px solid black;
+        }
+
+        .main-section .image{
+            height: 500px;
+            width: 100%;
+        }
+
+        .main-section .box-content.-center{
+            padding: 5rem;
+        }
+
+        .main-section .box-content.-center .main-title.-second-center{
+            padding: 1.5rem 0;
+        }
+
 }

@@ -28,3 +28,10 @@
     color: white;
     width: 100%;
 }
+
+@media screen and (min-width:768px) {
+    .section-decoration{
+        height: 500px;
+        padding: 5rem;
+    }
+}
